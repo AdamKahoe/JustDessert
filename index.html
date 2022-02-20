@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Dessert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="JustDessert">
+            <div class="JDheader">
+                <h1 class="title">Just<b class="Dessert">Dessert</b></h1>
+                <div class="jdbuttons">
+                    <button class="joinbtn" onclick="this.remove()">Join</button>
+                    <button class="loginbtn">Login</button>
+                </div>
+            </div>
+        </div>
+        <div class="searchsect">
+                <div class="seachin">
+                    <input class="searchbox" type="text" placeholder="SEARCH" name="Search"><button onclick="searchbox()" class="gobtn" type="submit" value="Go"></button>
+                </div>
+                <div class="row4">
+                    <img src="imgs/cake.png" class="searchimages" alt="picture of cake">
+                    <img src="imgs/ice-cream.png" class="searchimages" alt="ice cream picture">
+                    <img src="imgs/cookie.png" class="searchimages" alt="picture of cookie">
+                    <img src="imgs/pie.png" class="searchimages" alt="picture of pie">
+                </div>
+        </div>
+        <div class="container">
+            <div class="RTDWrapper">
+                <div class="RTD">
+                    <h1 class="RTDTitle">Recipie of the Day</h1>
+                    <img src="imgs/orange-tart.jpg" class="tartimg" alt="orange tart picture">
+                    <div class="col1">
+                        <div class="row1">
+                            <p class="OTJinfo">Orange Tea Jelly Tart</p>
+                            <p class="byOTP">By:<b class="yuripiano"> yuripiano</b></p>
+                        </div>
+                        <div class="likebtn1">
+                            <button class= "heartbtn" onclick="addLike()"><img src="imgs/heart.png" class="heart" alt="the heart-like button"></button>
+                            <p class="yurilike"><span class="count">68</span></p>
+                        </div>
+                    </div>
+                    <h3 class="readmore">See Full Recipie</h3>
+                </div>
+            </div>
+            <div class="Recommendedsect">
+                <h1 class="Recohead">Recommended for you:</h1>
+                <div class="macaron">
+                    <img src="imgs/macarons.jpg" class="macimg" alt="macaron picture">
+                    <div class="col2">
+                        <div class="row2">
+                            <p class="macinfo">Macarons</p>
+                            <p class="bymac">By: <b class="EmilieW">EmilieW</b></p>
+                        </div>
+                        <div class="likebtn2">
+                            <button class="heartbtn" onclick="addLike()"><img src="imgs/heart.png" class="heart2" alt="the heart-like button"></button> 
+                            <p class="Emilike"><span class="count">212</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cremebrulee"> 
+                    <img src="imgs/creme-brulee.jpg" class="cremebru" alt="creme brulee picture">
+                    <div class="col3">
+                        <div class="row3">
+                            <p class="creminfo">Creme Brulee</p>
+                            <p class="bycrem">By: <b class="MarisaG">MarisaG</b></p>
+                        </div>
+                        <div class="likebtn3">
+                            <button class="heartbtn" onclick="addLike"><img src="imgs/heart.png" class="heart3" alt="the heart-like button"></button> 
+                            <p class="Marisalike"><span class="count">33</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
